@@ -4,7 +4,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Project Description](#project-description)  
 - [Objective](#objective)  
 - [Tools Used](#tools-used)  
@@ -17,13 +17,13 @@
 
 ---
 
-## 🧾 Project Description
+## Project Description
 
 This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline focusing on **full** and **incremental** data extraction techniques. It uses simulated hospital admissions data to illustrate how to efficiently extract updated records based on a timestamp checkpoint.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Generate sample hospital admissions data spanning multiple days.
 - Implement a **full extraction** process to load all data.
@@ -32,7 +32,7 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - **Language & Environment:** Python 3.x (Jupyter Notebook)  
 - **Libraries:**  
@@ -43,74 +43,74 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
-| File                        | Description                                             |
-|-----------------------------|---------------------------------------------------------|
-| `hospital_admissions.csv`   | Simulated hospital admissions dataset (CSV)             |
-| `last_extraction.txt`       | Text file storing the last extraction timestamp         |
-| `etl_extract.ipynb`         | Jupyter Notebook for full and incremental extraction    |
-| `.gitignore`                | Specifies files/folders ignored by Git                  |
-| `LICENSE`                   | MIT license details                                     |
-| `README.md`                 | Project documentation (this file)                       |
+| File                      | Description                                               |
+|---------------------------|-----------------------------------------------------------|
+| `hospital_admissions.csv` | Simulated hospital admissions dataset (CSV)               |
+| `last_extraction.txt`     | Text file storing the last extraction timestamp           |
+| `etl_extract.ipynb`       | Jupyter Notebook for full and incremental extraction      |
+| `.gitignore`              | Specifies files/folders ignored by Git                    |
+| `LICENSE`                 | MIT license details                                       |
+| `README.md`               | Project documentation (this file)                         |
 
 ---
 
-## 📘 Notebook Description
+## Notebook Description
 
 This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction** techniques using a simulated hospital admissions dataset. It showcases how to:
 
-- ✅ Perform a **full extraction** of all records from the CSV file.
-- 🔄 Run an **incremental extraction** of only new or updated records since the last checkpoint.
-- 🕒 Maintain and update the **last extraction timestamp** for efficient future runs.
+- Perform a **full extraction** of all records from the CSV file.
+- Run an **incremental extraction** of only new or updated records since the last checkpoint.
+- Maintain and update the **last extraction timestamp** for efficient future runs.
 
-📒 **Note:**  
+**Note:**  
 The notebook includes **detailed markdown explanations** for each step, making the ETL process clear, educational, and easy to follow for students and beginners.
 
 ---
 
-## 📸 Output Screenshots
+## Output Screenshots
 
-### ✅ 1. Full Extraction Output
+### 1. Full Extraction Output
 ![Full Extraction](Output_Screenshoots/Full_Extraction.jpg)
 
-### 🔄 2. Incremental Extraction Output
+### 2. Incremental Extraction Output
 ![Incremental Extraction](Output_Screenshoots/Incremental_Extraction.jpg)
 
-### 🕒 3. Updated Last Extraction Timestamp
+### 3. Updated Last Extraction Timestamp
 ![Updated Last Extraction](Output_Screenshoots/Updated_last_extraction.jpg)
 
 ---
 
-## ⚙️ How to Reproduce
+## How to Reproduce
 
 1. **Clone or download this repository.**
 
 2. **Open and run the notebook `etl_extract.ipynb` in Jupyter Notebook or JupyterLab:**
 
    - The notebook generates a **simulated dataset** of hospital admissions for 60 days.
-   - It performs **full extraction** from the CSV.
+   - It performs a **full extraction** from the CSV.
    - It performs **incremental extraction** using the `last_extraction.txt` file as a checkpoint.
-   - After every run, the **extraction checkpoint** is updated to reflect the most recent timestamp.
+   - After each run, the **extraction checkpoint** is updated to reflect the most recent timestamp.
 
 3. **Data Source:**
 
    - The data is **simulated inside the notebook** for learning and demonstration purposes.
-   - The generated file `hospital_admissions.csv` contains admissions with hospital name, severity, timestamps, and more.
+   - The generated file `hospital_admissions.csv` contains admissions with hospital name, severity, timestamps, and other relevant details.
 
 ---
 
-## 🔁 ETL Process Design
+## ETL Process Design
 
 - **Extract:** Read hospital data from `hospital_admissions.csv`.  
-- **Transform:** Filter records based on `last_updated` column and the checkpoint in `last_extraction.txt`.  
+- **Transform:** Filter records based on the `last_updated` column and the checkpoint stored in `last_extraction.txt`.  
 - **Load:** Append the filtered results (incremental) and update the checkpoint file.
 
-📈 Incremental extraction ensures **efficient processing** by avoiding reloading unchanged data.
+Incremental extraction ensures **efficient processing** by avoiding reloading unchanged data.
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the [`LICENSE`](LICENSE) file for more details.
