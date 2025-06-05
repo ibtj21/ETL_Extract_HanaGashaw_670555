@@ -5,13 +5,17 @@
 
 ---
 
-## Description
+## 📘 Description
 
-This Jupyter Notebook (`etl_extract.ipynb`) demonstrates full and incremental data extraction techniques using a simulated hospital admissions dataset. It showcases how to perform:
+This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction** techniques using a simulated hospital admissions dataset. It showcases how to perform:
 
-- Full extraction of all records from the CSV file.
-- Incremental extraction based on the last update timestamp.
-- Managing and updating the extraction checkpoint for efficient data retrieval.
+- ✅ Full extraction of all records from the CSV file.
+- 🔄 Incremental extraction of only new or updated records since the last extraction time.
+- 🕒 Managing and updating the extraction checkpoint for efficient future retrieval.
+
+📒 **Note**:  
+The notebook includes **complete documentation** with **markdown explanations** at each step, making it easy to follow and understand the ETL process, even for beginners.
+
 
 ---
 
@@ -39,8 +43,6 @@ This Jupyter Notebook (`etl_extract.ipynb`) demonstrates full and incremental da
    - The dataset `hospital_admissions.csv` contains 60 days of hospital admission records with varying severity levels.
 
 ---
-
-## 📸 Output Screenshots
 
 ## 📸 Output Screenshots
 
