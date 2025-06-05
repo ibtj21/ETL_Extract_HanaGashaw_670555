@@ -59,13 +59,13 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 ## Notebook Description
 
 This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction** techniques using a simulated hospital admissions dataset. It showcases how to:
-
-- Perform a **full extraction** of all records from the CSV file.
+- Generate a **simulated dataset** of hospital admissions for 60 days.
+- Perform a **full extraction** of all records from the generated dataset.
 - Run an **incremental extraction** of only new or updated records since the last checkpoint.
 - Maintain and update the **last extraction timestamp** for efficient future runs.
 
 **Note:**  
-The notebook includes **detailed markdown explanations** for each step, making the ETL process clear, educational, and easy to follow for students and beginners.
+The notebook includes **detailed markdown explanations** for each step, making the Extraction process clear, educational, and easy to follow for students and beginners.
 
 ---
 
@@ -86,29 +86,13 @@ The notebook includes **detailed markdown explanations** for each step, making t
 
 1. **Clone or download this repository.**
 
-2. **Open and run the notebook `etl_extract.ipynb` in Jupyter Notebook or JupyterLab:**
-
-   - The notebook generates a **simulated dataset** of hospital admissions for 60 days.
-   - It performs a **full extraction** from the CSV.
-   - It performs **incremental extraction** using the `last_extraction.txt` file as a checkpoint.
-   - After each run, the **extraction checkpoint** is updated to reflect the most recent timestamp.
+2. **Open and run the notebook `etl_extract.ipynb` in Jupyter Notebook or JupyterLab**
 
 3. **Data Source:**
 
    - The data is **simulated inside the notebook** for learning and demonstration purposes.
    - The generated file `hospital_admissions.csv` contains admissions with hospital name, severity, timestamps, and other relevant details.
 
----
-
-## ETL Process Design
-
-- **Extract:** Read hospital data from `hospital_admissions.csv`.  
-- **Transform:** Filter records based on the `last_updated` column and the checkpoint stored in `last_extraction.txt`.  
-- **Load:** Append the filtered results (incremental) and update the checkpoint file.
-
-Incremental extraction ensures **efficient processing** by avoiding reloading unchanged data.
-
----
 
 ## License
 
