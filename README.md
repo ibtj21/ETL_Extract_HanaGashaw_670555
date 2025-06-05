@@ -9,11 +9,11 @@
 - [Objective](#objective)  
 - [Tools Used](#tools-used)  
 - [Repository Contents](#repository-contents)  
-- [📘 Notebook Description](#notebook-description)  
-- [📸 Output Screenshots](#output-screenshots)  
-- [⚙️ How to Reproduce](#how-to-reproduce)  
-- [🔁 ETL Process Design](#etl-process-design)  
-- [📝 License](#license)  
+- [Notebook Description](#notebook-description)  
+- [Output Screenshots](#output-screenshots)  
+- [How to Reproduce](#how-to-reproduce)  
+- [ETL Process Design](#etl-process-design)  
+- [License](#license)  
 
 ---
 
@@ -29,7 +29,6 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 - Implement a **full extraction** process to load all data.
 - Implement an **incremental extraction** process that only pulls data updated since the last extraction timestamp.
 - Maintain and update a checkpoint to keep track of the last extraction time.
-- Demonstrate the usage of `pandas` and `datetime` libraries for data manipulation.
 
 ---
 
