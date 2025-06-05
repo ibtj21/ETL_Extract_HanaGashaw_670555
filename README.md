@@ -11,8 +11,7 @@
 - [Repository Contents](#repository-contents)  
 - [Notebook Description](#notebook-description)  
 - [Output Screenshots](#output-screenshots)  
-- [How to Reproduce](#how-to-reproduce)  
-- [ETL Process Design](#etl-process-design)  
+- [How to Reproduce](#how-to-reproduce)   
 - [License](#license)  
 
 ---
