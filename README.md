@@ -42,14 +42,16 @@ This Jupyter Notebook (`etl_extract.ipynb`) demonstrates full and incremental da
 
 ## 📸 Output Screenshots
 
+## 📸 Output Screenshots
+
 ### ✅ 1. Full Extraction Output
-![Full Extraction](Output_Screenshoots/Full_Extraction.png)
+![Full Extraction](Output_Screenshoots/Full_Extraction.jpg)
 
 ### 🔄 2. Incremental Extraction Output
-![Incremental Extraction](Output_Screenshoots/Incremental_Extraction.png)
+![Incremental Extraction](Output_Screenshoots/Incremental_Extraction.jpg)
 
 ### 🕒 3. Updated Last Extraction Timestamp
-![Updated Last Extraction](Output_Screenshoots/Updated_last_extraction.png)
+![Updated Last Extraction](Output_Screenshoots/Updated_last_extraction.jpg)
 
 
 
