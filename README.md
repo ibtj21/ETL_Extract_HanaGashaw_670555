@@ -1,4 +1,4 @@
-# DSA2040_PROJECT_3: Full and Incremental Data Extraction
+# DSA2040_PROJECT_3: Full,Incremental Data Extraction and Transformation
 
 **Author:** Hana Hailemariam Gashaw
 
@@ -62,15 +62,40 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 
 ## Notebook Description
 
-This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction** techniques using a simulated hospital admissions dataset. It showcases how to:
-- Generate a **simulated dataset** of hospital admissions for 60 days.  
-- Perform a **full extraction** of all records from the generated dataset.  
-- Run an **incremental extraction** of only new or updated records since the last checkpoint.  
-- Maintain and update the **last extraction timestamp** for efficient future runs.  
-- Apply three transformation techniques to both full and incremental datasets to prepare them for analysis, namely:  
-  - Data cleaning (e.g., handling missing values and changing data types)  
-  - Key restructuring (e.g., generating surrogate keys for better integrity)  
-  - Categorization (e.g., grouping ages into categories like child, teenager, etc.)  
+This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction transformation** techniques using a simulated hospital admissions dataset. It showcases how to:
+### Section_1: Simulated Data Generation  
+This notebook begins by generating a **simulated dataset** of hospital admissions spanning 60 days. The dataset includes fields such as patient ID, admission date, hospital name, severity level, and other relevant details.
+
+---
+
+### Section_2: Full Extraction  
+A **full extraction** process is implemented to retrieve **all available records** from the generated dataset. This simulates a scenario where the entire data is loaded for the first time or when a complete refresh is required.
+
+---
+
+### Section_3: Incremental Extraction  
+The notebook also demonstrates an **incremental extraction** strategy. It filters and retrieves only the **new or updated records** based on a previously stored **timestamp checkpoint**, enabling efficient data updates without redundancy.
+
+#### Checkpoint Management  
+A key feature of the incremental process is **checkpoint management**. The notebook reads from a `last_extraction.txt` file that stores the timestamp of the last successful extraction. After each incremental run, this checkpoint is **updated** to ensure that future extractions only include **newly added or modified records** since that time.
+
+---
+
+### Section_4: Transformation – Full Data  
+Once the full dataset is extracted, it undergoes several **transformation steps** to prepare the data for analysis. These include:
+
+- **Data Cleaning:** Handling missing values, correcting data types, and removing any duplicates.  
+- **Key Restructuring:** Generating **surrogate keys** to uniquely identify records and maintain referential integrity.  
+- **Categorization:** Grouping ages into **meaningful categories** such as child, teenager, adult, etc., for easier interpretation and segmentation.
+
+---
+
+### Section_5: Transformation – Incremental Data  
+Similarly, the **incrementally extracted data** also undergoes transformation using the same techniques to ensure **consistency with the full dataset**:
+
+- **Data Cleaning:** Ensuring that only valid and clean records are passed on for analysis.  
+- **Key Restructuring:** Assigning surrogate keys to new or updated records.  
+- **Categorization:** Mapping age values into predefined categories for uniformity.
 
 **Note:**  
 The notebook includes **detailed markdown explanations** for each step, making the extraction and transformation process clear, educational, and easy to follow for students and beginners.
