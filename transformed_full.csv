@@ -1,0 +1,275 @@
+patient_id,hospital,admission_date,severity,last_updated,age,gender,age_group
+1,County Hospital,2025-04-02,Low,2025-04-02 18:27:00,3,Other,Child
+2,County Hospital,2025-04-02,Moderate,2025-04-02 22:41:00,48,Male,Middle-aged Adult
+3,General Hospital,2025-04-02,Moderate,2025-04-02 22:27:00,89,Other,Very Elderly
+4,General Hospital,2025-04-03,Critical,2025-04-03 03:22:00,35,Male,Young Adult
+5,County Hospital,2025-04-03,Low,2025-04-03 12:05:00,44,Other,Middle-aged Adult
+6,County Hospital,2025-04-03,Moderate,2025-04-03 22:04:00,70,Female,Elderly
+7,City Clinic,2025-04-03,Low,2025-04-03 12:17:00,5,Other,Child
+8,City Clinic,2025-04-03,High,2025-04-03 22:59:00,58,Other,Senior Adult
+9,St. Mary’s,2025-04-04,Critical,2025-04-04 08:59:00,77,Other,Elderly
+10,City Clinic,2025-04-04,Low,2025-04-04 10:25:00,81,Other,Very Elderly
+11,City Clinic,2025-04-04,Critical,2025-04-04 12:56:00,34,Male,Young Adult
+12,Mercy Medical,2025-04-05,Critical,2025-04-05 18:25:00,18,Female,Teenager
+13,General Hospital,2025-04-05,Low,2025-04-05 03:09:00,46,Male,Middle-aged Adult
+14,St. Mary’s,2025-04-05,Critical,2025-04-05 19:29:00,80,Male,Elderly
+15,General Hospital,2025-04-05,High,2025-04-05 20:21:00,67,Female,Elderly
+16,County Hospital,2025-04-05,Moderate,2025-04-05 16:58:00,14,Female,Teenager
+17,City Clinic,2025-04-05,High,2025-04-05 05:34:00,13,Other,Teenager
+18,Mercy Medical,2025-04-06,Moderate,2025-04-06 01:15:00,76,Female,Elderly
+19,County Hospital,2025-04-06,Moderate,2025-04-06 04:42:00,48,Male,Middle-aged Adult
+20,City Clinic,2025-04-06,Moderate,2025-04-06 22:19:00,60,Other,Senior Adult
+21,General Hospital,2025-04-07,Moderate,2025-04-07 07:04:00,85,Other,Very Elderly
+22,General Hospital,2025-04-07,Low,2025-04-07 22:40:00,43,Male,Middle-aged Adult
+23,General Hospital,2025-04-07,Moderate,2025-04-07 08:42:00,48,Other,Middle-aged Adult
+24,City Clinic,2025-04-07,Critical,2025-04-07 13:12:00,62,Male,Senior Adult
+25,St. Mary’s,2025-04-07,Low,2025-04-07 21:41:00,12,Male,Child
+26,City Clinic,2025-04-07,Moderate,2025-04-07 06:34:00,48,Male,Middle-aged Adult
+27,St. Mary’s,2025-04-08,Low,2025-04-08 01:41:00,17,Female,Teenager
+28,City Clinic,2025-04-08,Critical,2025-04-08 15:30:00,69,Male,Elderly
+29,St. Mary’s,2025-04-08,High,2025-04-08 14:18:00,27,Female,Young Adult
+30,City Clinic,2025-04-08,Moderate,2025-04-08 09:13:00,54,Other,Senior Adult
+31,General Hospital,2025-04-08,Low,2025-04-08 18:30:00,7,Other,Child
+32,City Clinic,2025-04-08,Low,2025-04-08 19:04:00,64,Other,Senior Adult
+33,County Hospital,2025-04-09,Low,2025-04-09 13:42:00,51,Male,Senior Adult
+34,Mercy Medical,2025-04-09,Moderate,2025-04-09 08:25:00,74,Other,Elderly
+35,General Hospital,2025-04-09,Critical,2025-04-09 19:36:00,16,Other,Teenager
+36,Mercy Medical,2025-04-09,Low,2025-04-09 07:23:00,12,Male,Child
+37,General Hospital,2025-04-10,High,2025-04-10 21:06:00,20,Female,Young Adult
+38,Mercy Medical,2025-04-10,High,2025-04-10 19:13:00,17,Female,Teenager
+39,County Hospital,2025-04-10,Critical,2025-04-10 08:57:00,91,Female,Very Elderly
+40,General Hospital,2025-04-10,High,2025-04-10 04:40:00,6,Male,Child
+41,County Hospital,2025-04-10,Low,2025-04-10 03:04:00,33,Male,Young Adult
+42,St. Mary’s,2025-04-11,Moderate,2025-04-11 01:19:00,69,Male,Elderly
+43,General Hospital,2025-04-11,High,2025-04-11 17:56:00,46,Male,Middle-aged Adult
+44,City Clinic,2025-04-11,Moderate,2025-04-11 13:01:00,52,Other,Senior Adult
+45,City Clinic,2025-04-11,High,2025-04-11 05:50:00,22,Other,Young Adult
+46,Mercy Medical,2025-04-12,High,2025-04-12 07:14:00,48,Male,Middle-aged Adult
+47,Mercy Medical,2025-04-12,High,2025-04-12 20:32:00,3,Other,Child
+48,General Hospital,2025-04-12,High,2025-04-12 05:37:00,51,Other,Senior Adult
+49,St. Mary’s,2025-04-13,Low,2025-04-13 12:57:00,4,Male,Child
+50,County Hospital,2025-04-13,Moderate,2025-04-13 11:27:00,73,Male,Elderly
+51,Mercy Medical,2025-04-13,High,2025-04-13 21:26:00,8,Other,Child
+52,St. Mary’s,2025-04-13,Critical,2025-04-13 21:47:00,41,Female,Middle-aged Adult
+53,Mercy Medical,2025-04-13,High,2025-04-13 06:27:00,22,Other,Young Adult
+54,City Clinic,2025-04-14,Low,2025-04-14 09:32:00,59,Female,Senior Adult
+55,Mercy Medical,2025-04-14,Moderate,2025-04-14 06:09:00,84,Other,Very Elderly
+56,St. Mary’s,2025-04-14,Critical,2025-04-14 20:36:00,3,Male,Child
+57,City Clinic,2025-04-14,Low,2025-04-14 03:49:00,24,Other,Young Adult
+58,St. Mary’s,2025-04-14,Low,2025-04-14 17:15:00,54,Male,Senior Adult
+59,St. Mary’s,2025-04-15,Critical,2025-04-15 17:28:00,58,Male,Senior Adult
+60,Mercy Medical,2025-04-15,Critical,2025-04-15 20:15:00,20,Other,Young Adult
+61,Mercy Medical,2025-04-15,High,2025-04-15 17:05:00,48,Female,Middle-aged Adult
+62,General Hospital,2025-04-16,Critical,2025-04-16 13:21:00,19,Male,Teenager
+63,St. Mary’s,2025-04-16,Low,2025-04-16 18:24:00,69,Female,Elderly
+64,St. Mary’s,2025-04-16,Moderate,2025-04-16 15:14:00,61,Male,Senior Adult
+65,City Clinic,2025-04-16,Critical,2025-04-16 04:39:00,34,Female,Young Adult
+66,City Clinic,2025-04-17,Critical,2025-04-17 05:03:00,50,Other,Middle-aged Adult
+67,St. Mary’s,2025-04-17,High,2025-04-17 13:16:00,33,Female,Young Adult
+68,City Clinic,2025-04-17,Low,2025-04-17 20:02:00,48,Female,Middle-aged Adult
+69,City Clinic,2025-04-18,Critical,2025-04-18 21:07:00,31,Male,Young Adult
+70,City Clinic,2025-04-18,Low,2025-04-18 05:19:00,72,Male,Elderly
+71,St. Mary’s,2025-04-18,Moderate,2025-04-18 02:37:00,48,Other,Middle-aged Adult
+72,County Hospital,2025-04-19,Low,2025-04-19 11:34:00,13,Other,Teenager
+73,General Hospital,2025-04-19,Critical,2025-04-19 15:06:00,54,Other,Senior Adult
+74,St. Mary’s,2025-04-19,Moderate,2025-04-19 23:33:00,55,Female,Senior Adult
+75,St. Mary’s,2025-04-19,Critical,2025-04-19 23:37:00,83,Female,Very Elderly
+76,City Clinic,2025-04-20,Critical,2025-04-20 18:39:00,41,Other,Middle-aged Adult
+77,City Clinic,2025-04-20,Critical,2025-04-20 06:22:00,85,Female,Very Elderly
+78,County Hospital,2025-04-20,Low,2025-04-20 16:12:00,33,Female,Young Adult
+79,St. Mary’s,2025-04-20,Critical,2025-04-20 14:50:00,10,Male,Child
+80,Mercy Medical,2025-04-20,High,2025-04-20 15:35:00,2,Male,Child
+81,Mercy Medical,2025-04-21,High,2025-04-21 08:14:00,54,Other,Senior Adult
+82,City Clinic,2025-04-21,Moderate,2025-04-21 06:47:00,15,Other,Teenager
+83,County Hospital,2025-04-21,High,2025-04-21 03:53:00,61,Female,Senior Adult
+84,County Hospital,2025-04-21,Moderate,2025-04-21 08:02:00,24,Female,Young Adult
+85,General Hospital,2025-04-21,Low,2025-04-21 18:18:00,6,Other,Child
+86,St. Mary’s,2025-04-22,Low,2025-04-22 02:25:00,61,Female,Senior Adult
+87,City Clinic,2025-04-22,High,2025-04-22 02:15:00,62,Male,Senior Adult
+88,County Hospital,2025-04-22,Critical,2025-04-22 14:58:00,15,Other,Teenager
+89,County Hospital,2025-04-22,Low,2025-04-22 19:47:00,56,Female,Senior Adult
+90,City Clinic,2025-04-22,Moderate,2025-04-22 05:35:00,12,Male,Child
+91,Mercy Medical,2025-04-22,Low,2025-04-22 07:18:00,48,Male,Middle-aged Adult
+92,County Hospital,2025-04-23,Moderate,2025-04-23 13:07:00,48,Female,Middle-aged Adult
+93,General Hospital,2025-04-23,Low,2025-04-23 05:50:00,69,Male,Elderly
+94,St. Mary’s,2025-04-23,Low,2025-04-23 14:44:00,39,Other,Middle-aged Adult
+95,St. Mary’s,2025-04-23,Critical,2025-04-23 02:38:00,38,Other,Middle-aged Adult
+96,General Hospital,2025-04-23,Moderate,2025-04-23 21:53:00,5,Female,Child
+97,St. Mary’s,2025-04-24,Critical,2025-04-24 08:11:00,97,Other,Very Elderly
+98,St. Mary’s,2025-04-24,High,2025-04-24 13:21:00,74,Female,Elderly
+99,St. Mary’s,2025-04-24,High,2025-04-24 21:25:00,41,Other,Middle-aged Adult
+100,County Hospital,2025-04-25,Low,2025-04-25 21:55:00,58,Male,Senior Adult
+101,County Hospital,2025-04-25,Critical,2025-04-25 20:28:00,69,Female,Elderly
+102,St. Mary’s,2025-04-25,Critical,2025-04-25 03:01:00,97,Male,Very Elderly
+103,General Hospital,2025-04-26,Moderate,2025-04-26 03:29:00,90,Other,Very Elderly
+104,County Hospital,2025-04-26,High,2025-04-26 13:53:00,15,Other,Teenager
+105,City Clinic,2025-04-26,Moderate,2025-04-26 02:17:00,61,Female,Senior Adult
+106,General Hospital,2025-04-26,High,2025-04-26 23:19:00,98,Female,Very Elderly
+107,St. Mary’s,2025-04-27,Critical,2025-04-27 10:55:00,19,Female,Teenager
+108,General Hospital,2025-04-27,High,2025-04-27 23:30:00,24,Other,Young Adult
+109,St. Mary’s,2025-04-27,Low,2025-04-27 04:32:00,90,Female,Very Elderly
+110,General Hospital,2025-04-27,Critical,2025-04-27 00:46:00,75,Female,Elderly
+111,St. Mary’s,2025-04-27,High,2025-04-27 10:39:00,18,Female,Teenager
+112,St. Mary’s,2025-04-27,High,2025-04-27 20:45:00,88,Female,Very Elderly
+113,City Clinic,2025-04-28,Low,2025-04-28 13:06:00,69,Male,Elderly
+114,Mercy Medical,2025-04-28,Low,2025-04-28 01:20:00,97,Other,Very Elderly
+115,County Hospital,2025-04-28,Critical,2025-04-28 18:43:00,7,Female,Child
+116,County Hospital,2025-04-28,Moderate,2025-04-28 15:58:00,23,Male,Young Adult
+117,Mercy Medical,2025-04-28,Low,2025-04-28 14:57:00,74,Male,Elderly
+118,County Hospital,2025-04-28,High,2025-04-28 20:27:00,36,Other,Middle-aged Adult
+119,General Hospital,2025-04-29,Moderate,2025-04-29 12:36:00,58,Female,Senior Adult
+120,St. Mary’s,2025-04-29,High,2025-04-29 00:36:00,45,Other,Middle-aged Adult
+121,Mercy Medical,2025-04-29,Moderate,2025-04-29 19:51:00,87,Other,Very Elderly
+122,General Hospital,2025-04-29,Low,2025-04-29 09:50:00,45,Male,Middle-aged Adult
+123,Mercy Medical,2025-04-29,High,2025-04-29 23:26:00,56,Male,Senior Adult
+124,County Hospital,2025-04-30,High,2025-04-30 05:16:00,25,Male,Young Adult
+125,St. Mary’s,2025-04-30,Low,2025-04-30 04:48:00,61,Female,Senior Adult
+126,General Hospital,2025-04-30,Critical,2025-04-30 00:16:00,28,Other,Young Adult
+127,County Hospital,2025-04-30,Critical,2025-04-30 20:23:00,68,Male,Elderly
+128,County Hospital,2025-05-01,Moderate,2025-05-01 20:04:00,86,Male,Very Elderly
+129,General Hospital,2025-05-01,Moderate,2025-05-01 01:02:00,81,Female,Very Elderly
+130,City Clinic,2025-05-01,Critical,2025-05-01 14:23:00,38,Female,Middle-aged Adult
+131,St. Mary’s,2025-05-02,Critical,2025-05-02 08:02:00,75,Other,Elderly
+132,Mercy Medical,2025-05-02,Low,2025-05-02 21:23:00,88,Female,Very Elderly
+133,General Hospital,2025-05-02,Critical,2025-05-02 02:42:00,69,Other,Elderly
+134,Mercy Medical,2025-05-02,Moderate,2025-05-02 04:50:00,27,Other,Young Adult
+135,County Hospital,2025-05-02,Moderate,2025-05-02 07:21:00,48,Male,Middle-aged Adult
+136,City Clinic,2025-05-02,Moderate,2025-05-02 17:16:00,99,Male,Very Elderly
+137,City Clinic,2025-05-03,High,2025-05-03 00:11:00,14,Other,Teenager
+138,General Hospital,2025-05-03,Critical,2025-05-03 14:49:00,33,Male,Young Adult
+139,County Hospital,2025-05-03,Low,2025-05-03 23:50:00,46,Other,Middle-aged Adult
+140,General Hospital,2025-05-03,Critical,2025-05-03 12:27:00,84,Other,Very Elderly
+141,Mercy Medical,2025-05-04,Moderate,2025-05-04 02:08:00,62,Other,Senior Adult
+142,St. Mary’s,2025-05-04,High,2025-05-04 14:32:00,35,Other,Young Adult
+143,St. Mary’s,2025-05-04,Critical,2025-05-04 07:26:00,48,Female,Middle-aged Adult
+144,Mercy Medical,2025-05-05,High,2025-05-05 11:09:00,58,Other,Senior Adult
+145,St. Mary’s,2025-05-05,Low,2025-05-05 23:47:00,48,Female,Middle-aged Adult
+146,General Hospital,2025-05-05,Critical,2025-05-05 11:55:00,47,Male,Middle-aged Adult
+147,County Hospital,2025-05-05,High,2025-05-05 11:06:00,85,Female,Very Elderly
+148,General Hospital,2025-05-05,High,2025-05-05 17:23:00,73,Other,Elderly
+149,County Hospital,2025-05-06,High,2025-05-06 00:11:00,97,Female,Very Elderly
+150,General Hospital,2025-05-06,Moderate,2025-05-06 04:36:00,34,Other,Young Adult
+151,General Hospital,2025-05-06,Moderate,2025-05-06 12:26:00,48,Female,Middle-aged Adult
+152,General Hospital,2025-05-07,Moderate,2025-05-07 05:48:00,43,Male,Middle-aged Adult
+153,St. Mary’s,2025-05-07,Critical,2025-05-07 13:17:00,79,Male,Elderly
+154,County Hospital,2025-05-07,Critical,2025-05-07 16:42:00,27,Other,Young Adult
+155,General Hospital,2025-05-07,Moderate,2025-05-07 09:13:00,39,Male,Middle-aged Adult
+156,General Hospital,2025-05-07,Critical,2025-05-07 23:27:00,98,Male,Very Elderly
+157,County Hospital,2025-05-07,High,2025-05-07 02:25:00,22,Male,Young Adult
+158,County Hospital,2025-05-08,Critical,2025-05-08 18:25:00,55,Other,Senior Adult
+159,Mercy Medical,2025-05-08,Moderate,2025-05-08 19:29:00,90,Other,Very Elderly
+160,St. Mary’s,2025-05-08,Critical,2025-05-08 16:05:00,48,Female,Middle-aged Adult
+161,General Hospital,2025-05-09,Low,2025-05-09 16:32:00,39,Other,Middle-aged Adult
+162,City Clinic,2025-05-09,Low,2025-05-09 04:16:00,24,Female,Young Adult
+163,City Clinic,2025-05-09,Critical,2025-05-09 14:48:00,25,Male,Young Adult
+164,Mercy Medical,2025-05-09,Moderate,2025-05-09 14:04:00,72,Other,Elderly
+165,Mercy Medical,2025-05-09,Low,2025-05-09 09:29:00,60,Female,Senior Adult
+166,General Hospital,2025-05-09,Critical,2025-05-09 14:37:00,48,Male,Middle-aged Adult
+167,County Hospital,2025-05-10,Moderate,2025-05-10 01:28:00,57,Other,Senior Adult
+168,General Hospital,2025-05-10,Moderate,2025-05-10 22:28:00,13,Other,Teenager
+169,Mercy Medical,2025-05-10,Critical,2025-05-10 13:49:00,56,Other,Senior Adult
+170,General Hospital,2025-05-11,High,2025-05-11 03:35:00,48,Other,Middle-aged Adult
+171,Mercy Medical,2025-05-11,Low,2025-05-11 18:42:00,86,Female,Very Elderly
+172,City Clinic,2025-05-11,Low,2025-05-11 09:35:00,18,Female,Teenager
+173,General Hospital,2025-05-11,Critical,2025-05-11 16:23:00,48,Other,Middle-aged Adult
+174,St. Mary’s,2025-05-11,Moderate,2025-05-11 07:08:00,2,Female,Child
+175,County Hospital,2025-05-12,Low,2025-05-12 21:21:00,9,Female,Child
+176,City Clinic,2025-05-12,Moderate,2025-05-12 23:28:00,98,Other,Very Elderly
+177,County Hospital,2025-05-12,High,2025-05-12 23:50:00,5,Female,Child
+178,City Clinic,2025-05-12,High,2025-05-12 21:36:00,57,Male,Senior Adult
+179,City Clinic,2025-05-13,Moderate,2025-05-13 19:08:00,59,Female,Senior Adult
+180,County Hospital,2025-05-13,Low,2025-05-13 09:05:00,32,Male,Young Adult
+181,St. Mary’s,2025-05-13,Low,2025-05-13 07:52:00,97,Male,Very Elderly
+182,County Hospital,2025-05-13,High,2025-05-13 07:24:00,57,Female,Senior Adult
+183,Mercy Medical,2025-05-13,Moderate,2025-05-13 04:02:00,10,Female,Child
+184,St. Mary’s,2025-05-13,Low,2025-05-13 02:01:00,36,Female,Middle-aged Adult
+185,St. Mary’s,2025-05-14,Low,2025-05-14 09:15:00,27,Male,Young Adult
+186,General Hospital,2025-05-14,Low,2025-05-14 15:38:00,48,Male,Middle-aged Adult
+187,Mercy Medical,2025-05-14,Critical,2025-05-14 00:39:00,68,Male,Elderly
+188,County Hospital,2025-05-14,High,2025-05-14 02:33:00,45,Male,Middle-aged Adult
+189,St. Mary’s,2025-05-14,Critical,2025-05-14 01:40:00,69,Other,Elderly
+190,Mercy Medical,2025-05-15,Moderate,2025-05-15 23:42:00,47,Female,Middle-aged Adult
+191,City Clinic,2025-05-15,Low,2025-05-15 11:34:00,80,Male,Elderly
+192,St. Mary’s,2025-05-15,Moderate,2025-05-15 04:04:00,43,Other,Middle-aged Adult
+193,General Hospital,2025-05-15,High,2025-05-15 09:32:00,48,Female,Middle-aged Adult
+194,Mercy Medical,2025-05-15,High,2025-05-15 01:55:00,50,Other,Middle-aged Adult
+195,St. Mary’s,2025-05-15,Critical,2025-05-15 12:21:00,83,Female,Very Elderly
+196,Mercy Medical,2025-05-16,Low,2025-05-16 23:27:00,63,Other,Senior Adult
+197,Mercy Medical,2025-05-16,High,2025-05-16 03:05:00,10,Female,Child
+198,City Clinic,2025-05-16,Critical,2025-05-16 11:28:00,41,Other,Middle-aged Adult
+199,Mercy Medical,2025-05-16,Low,2025-05-16 02:42:00,5,Other,Child
+200,City Clinic,2025-05-17,Critical,2025-05-17 01:08:00,46,Other,Middle-aged Adult
+201,County Hospital,2025-05-17,Low,2025-05-17 19:09:00,8,Male,Child
+202,County Hospital,2025-05-17,Moderate,2025-05-17 16:23:00,86,Female,Very Elderly
+203,General Hospital,2025-05-17,Moderate,2025-05-17 15:33:00,50,Female,Middle-aged Adult
+204,City Clinic,2025-05-17,High,2025-05-17 22:58:00,49,Other,Middle-aged Adult
+205,City Clinic,2025-05-17,Critical,2025-05-17 02:51:00,62,Male,Senior Adult
+206,Mercy Medical,2025-05-18,Moderate,2025-05-18 22:45:00,85,Female,Very Elderly
+207,General Hospital,2025-05-18,Moderate,2025-05-18 04:15:00,89,Other,Very Elderly
+208,County Hospital,2025-05-18,Moderate,2025-05-18 19:56:00,63,Male,Senior Adult
+209,County Hospital,2025-05-18,Critical,2025-05-18 13:52:00,11,Male,Child
+210,St. Mary’s,2025-05-18,Critical,2025-05-18 21:33:00,73,Male,Elderly
+211,St. Mary’s,2025-05-19,Low,2025-05-19 03:33:00,16,Other,Teenager
+212,Mercy Medical,2025-05-19,High,2025-05-19 02:16:00,19,Female,Teenager
+213,County Hospital,2025-05-19,Low,2025-05-19 16:41:00,25,Other,Young Adult
+214,County Hospital,2025-05-19,Low,2025-05-19 00:05:00,21,Other,Young Adult
+215,County Hospital,2025-05-19,Critical,2025-05-19 19:40:00,5,Other,Child
+216,St. Mary’s,2025-05-20,Moderate,2025-05-20 21:25:00,63,Other,Senior Adult
+217,St. Mary’s,2025-05-20,Critical,2025-05-20 14:13:00,48,Other,Middle-aged Adult
+218,Mercy Medical,2025-05-20,Critical,2025-05-20 04:48:00,43,Other,Middle-aged Adult
+219,Mercy Medical,2025-05-21,Critical,2025-05-21 07:09:00,65,Other,Senior Adult
+220,City Clinic,2025-05-21,Moderate,2025-05-21 10:59:00,12,Male,Child
+221,County Hospital,2025-05-21,Critical,2025-05-21 15:56:00,73,Other,Elderly
+222,St. Mary’s,2025-05-21,Moderate,2025-05-21 06:37:00,48,Female,Middle-aged Adult
+223,Mercy Medical,2025-05-21,Low,2025-05-21 03:27:00,48,Male,Middle-aged Adult
+224,St. Mary’s,2025-05-22,Low,2025-05-22 18:35:00,33,Other,Young Adult
+225,St. Mary’s,2025-05-22,High,2025-05-22 19:43:00,24,Other,Young Adult
+226,Mercy Medical,2025-05-22,High,2025-05-22 04:12:00,78,Other,Elderly
+227,City Clinic,2025-05-22,High,2025-05-22 15:33:00,77,Other,Elderly
+228,City Clinic,2025-05-23,Critical,2025-05-23 19:47:00,19,Other,Teenager
+229,St. Mary’s,2025-05-23,High,2025-05-23 15:52:00,38,Other,Middle-aged Adult
+230,County Hospital,2025-05-23,High,2025-05-23 23:55:00,2,Female,Child
+231,General Hospital,2025-05-23,Critical,2025-05-23 05:33:00,48,Other,Middle-aged Adult
+232,City Clinic,2025-05-23,Low,2025-05-23 18:44:00,80,Other,Elderly
+233,St. Mary’s,2025-05-23,Moderate,2025-05-23 13:32:00,48,Male,Middle-aged Adult
+234,County Hospital,2025-05-24,High,2025-05-24 21:30:00,48,Other,Middle-aged Adult
+235,Mercy Medical,2025-05-24,High,2025-05-24 21:49:00,67,Female,Elderly
+236,City Clinic,2025-05-24,Moderate,2025-05-24 08:35:00,92,Other,Very Elderly
+237,City Clinic,2025-05-24,Critical,2025-05-24 10:30:00,38,Male,Middle-aged Adult
+238,Mercy Medical,2025-05-24,Low,2025-05-24 18:43:00,44,Other,Middle-aged Adult
+239,City Clinic,2025-05-24,High,2025-05-24 01:18:00,69,Female,Elderly
+240,City Clinic,2025-05-25,High,2025-05-25 17:44:00,44,Female,Middle-aged Adult
+241,City Clinic,2025-05-25,Low,2025-05-25 21:57:00,34,Male,Young Adult
+242,Mercy Medical,2025-05-25,Critical,2025-05-25 03:43:00,67,Other,Elderly
+243,St. Mary’s,2025-05-26,Moderate,2025-05-26 09:20:00,0,Other,Child
+244,County Hospital,2025-05-26,Low,2025-05-26 05:26:00,48,Other,Middle-aged Adult
+245,City Clinic,2025-05-26,High,2025-05-26 01:00:00,22,Male,Young Adult
+246,Mercy Medical,2025-05-26,Critical,2025-05-26 20:34:00,38,Other,Middle-aged Adult
+247,Mercy Medical,2025-05-27,Moderate,2025-05-27 23:29:00,17,Other,Teenager
+248,Mercy Medical,2025-05-27,Moderate,2025-05-27 05:39:00,82,Other,Very Elderly
+249,St. Mary’s,2025-05-27,Low,2025-05-27 05:08:00,81,Female,Very Elderly
+250,City Clinic,2025-05-27,Critical,2025-05-27 08:21:00,61,Other,Senior Adult
+251,City Clinic,2025-05-27,Low,2025-05-27 21:07:00,38,Other,Middle-aged Adult
+252,General Hospital,2025-05-27,High,2025-05-27 11:39:00,59,Female,Senior Adult
+253,St. Mary’s,2025-05-28,Critical,2025-05-28 17:51:00,28,Male,Young Adult
+254,County Hospital,2025-05-28,Critical,2025-05-28 16:45:00,85,Male,Very Elderly
+255,County Hospital,2025-05-28,Moderate,2025-05-28 18:34:00,46,Male,Middle-aged Adult
+256,City Clinic,2025-05-28,Critical,2025-05-28 02:57:00,19,Male,Teenager
+257,County Hospital,2025-05-29,Critical,2025-05-29 21:51:00,7,Female,Child
+258,City Clinic,2025-05-29,Low,2025-05-29 01:27:00,48,Other,Middle-aged Adult
+259,St. Mary’s,2025-05-29,Low,2025-05-29 09:26:00,48,Other,Middle-aged Adult
+260,Mercy Medical,2025-05-29,Critical,2025-05-29 14:55:00,23,Male,Young Adult
+261,City Clinic,2025-05-29,High,2025-05-29 03:11:00,48,Female,Middle-aged Adult
+262,General Hospital,2025-05-29,Low,2025-05-29 09:29:00,68,Female,Elderly
+263,City Clinic,2025-05-30,High,2025-05-30 06:59:00,68,Female,Elderly
+264,City Clinic,2025-05-30,Moderate,2025-05-30 02:06:00,48,Male,Middle-aged Adult
+265,City Clinic,2025-05-30,Low,2025-05-30 12:28:00,76,Male,Elderly
+266,City Clinic,2025-05-30,High,2025-05-30 07:52:00,29,Other,Young Adult
+267,City Clinic,2025-05-30,High,2025-05-30 04:42:00,93,Other,Very Elderly
+268,St. Mary’s,2025-05-30,Critical,2025-05-30 01:22:00,66,Male,Elderly
+269,Mercy Medical,2025-05-31,Critical,2025-05-31 05:48:00,100,Other,Very Elderly
+270,St. Mary’s,2025-05-31,Low,2025-05-31 17:26:00,68,Female,Elderly
+271,City Clinic,2025-05-31,High,2025-05-31 20:05:00,53,Other,Senior Adult
+272,General Hospital,2025-05-31,High,2025-05-31 12:43:00,48,Female,Middle-aged Adult
+273,St. Mary’s,2025-05-31,Moderate,2025-05-31 10:19:00,48,Other,Middle-aged Adult
+274,St. Mary’s,2025-05-31,Moderate,2025-05-31 22:38:00,1,Male,Child
