@@ -110,8 +110,16 @@ The notebook includes **detailed markdown explanations** for each step, making t
 ### 2. Incremental Extraction Output
 ![Incremental Extraction](Output_Screenshoots/Incremental_Extraction.jpg)
 
-### 3. Updated Last Extraction Timestamp
-![Updated Last Extraction](Output_Screenshoots/Updated_last_extraction.jpg)
+### 3. Data Cleaning Output
+![Data Cleaning](Output_Screenshoots/Data_Cleaning.jpg)
+
+### 4. Key Restructuring Output
+![Key Restructuring](Output_Screenshoots/Key_Restructuring.jpg)
+
+### 4. Categorization Output
+![Categorization](Output_Screenshoots/Categorization.jpg)
+
+
 
 ---
 
