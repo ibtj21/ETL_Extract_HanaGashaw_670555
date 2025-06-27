@@ -105,7 +105,7 @@ Similarly, the **incrementally extracted data** also undergoes transformation us
 - **Key Restructuring:** Assigning surrogate keys to new or updated records.  
 - **Categorization:** Mapping age values into predefined categories for uniformity.
 
-## *etl_load.ipynb* :Lab_5
+## *etl_load.ipynb* :Lab_5-Load
 
 In this section, the transformed hospital admission records were loaded and saved in an optimized format for storage and future analysis.
 
