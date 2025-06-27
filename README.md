@@ -61,8 +61,11 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 | `transformed_full.csv`           | Transformed hospital admissions dataset                                    |
 | `transformed_incremental.csv`    | Transformed incremental data                                               |
 | `Output_Screenshoots`            | Screenshots from the results of extraction and transformation              |
-| `Loaded data`                    | Loaded full and transformed data          |
 | `etl.load.ipynb`                    |Jupyter Notebook for full and incremental data loading   |
+├── `Loaded data`                    | folder for Loaded full and transformed data           |
+|├──`full_data.parquet`             | Loaded full data|
+|├──`incremental_data.parquet`            | transformed data|
+
 ---
 
 ## Notebook Description
@@ -140,6 +143,7 @@ The notebook includes **detailed markdown explanations** for each step, making t
 ```
 ### Output Location for loading
 The output files were saved in **Parquet** format within the current repository directory. These files are ready to be used for downstream analytics, integration into data platforms, or long-term storage alongside this project.
+
 
 - `full_data.parquet`
 - `incremental_data.parquet`
