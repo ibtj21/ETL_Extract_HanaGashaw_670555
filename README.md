@@ -62,7 +62,7 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 | `transformed_incremental.csv`    | Transformed incremental data                                               |
 | `Output_Screenshoots`            | Screenshots from the results of extraction and transformation              |
 | `etl.load.ipynb`                    |Jupyter Notebook for full and incremental data loading   |
-├── `Loaded data`                    | folder for Loaded full and transformed data           |
+|`Loaded data`                    | folder for Loaded full and transformed data           |
 |├──`full_data.parquet`             | Loaded full data|
 |├──`incremental_data.parquet`            | transformed data|
 
