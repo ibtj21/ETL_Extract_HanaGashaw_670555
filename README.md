@@ -137,7 +137,7 @@ print(pd.read_parquet("incremental_data.parquet").head())
 **Note:**  
 The notebook includes **detailed markdown explanations** for each step, making the extraction and transformation process clear, educational, and easy to follow for students and beginners.
 ```
-### Output Location
+### Output Location for loading
 The output files were saved in **Parquet** format within the current repository directory. These files are ready to be used for downstream analytics, integration into data platforms, or long-term storage alongside this project.
 
 - `full_data.parquet`
