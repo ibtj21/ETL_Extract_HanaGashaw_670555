@@ -18,7 +18,7 @@
 
 ## Project Description
 
-This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline focusing on **full** and **incremental** data extraction and transformation techniques. It uses simulated hospital admissions data to illustrate how to efficiently extract updated records based on a timestamp checkpoint.
+This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline focusing on **full** and **incremental** data extraction ,transformation and load techniques. It uses simulated hospital admissions data to illustrate how to efficiently extract updated records based on a timestamp checkpoint.
 
 ---
 
@@ -28,7 +28,10 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 - Implement a **full extraction** process to load all data.  
 - Implement an **incremental extraction** process that only pulls data updated since the last extraction timestamp.  
 - Maintain and update a checkpoint to keep track of the last extraction time.  
-- Apply at least three transformation techniques to both full and incremental datasets to prepare them for analysis.  
+- Apply at least three transformation techniques to both full and incremental datasets to prepare them for analysis.
+- Load transformed hospital admission records into a structured and efficient storage format.
+- Converting CSV files into Parquet format using Python to optimize for fast access, reduced storage size, and seamless integration into analytical workflows and data platforms.
+ 
 
 ---
 
@@ -39,7 +42,8 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
   - `pandas`  
   - `numpy`  
   - `datetime`  
-  - `random`  
+  - `random`
+  - `pyarrow`
 
 ---
 
@@ -57,12 +61,15 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 | `transformed_full.csv`           | Transformed hospital admissions dataset                                    |
 | `transformed_incremental.csv`    | Transformed incremental data                                               |
 | `Output_Screenshoots`            | Screenshots from the results of extraction and transformation              |
-
+| `Loaded data`                    | Loaded full and transformed data          |
 ---
 
 ## Notebook Description
 
-This Jupyter Notebook (`etl_extract.ipynb`) demonstrates **full and incremental data extraction transformation** techniques using a simulated hospital admissions dataset. It showcases how to:
+This Jupyter Notebooks (`etl_extract.ipynb` and `etl_load.ipynb`) demonstrate **full and incremental data extraction, transformation and load** techniques using a simulated hospital admissions dataset. It showcases how to:
+
+## *etl_extract.ipynb*
+
 ### Section_1: Simulated Data Generation  
 This notebook begins by generating a **simulated dataset** of hospital admissions spanning 60 days. The dataset includes fields such as patient ID, admission date, hospital name, severity level, and other relevant details.
 
@@ -97,9 +104,44 @@ Similarly, the **incrementally extracted data** also undergoes transformation us
 - **Key Restructuring:** Assigning surrogate keys to new or updated records.  
 - **Categorization:** Mapping age values into predefined categories for uniformity.
 
+## *etl_load.ipynb* :Lab_5
+
+In this section, the transformed hospital admission records were loaded and saved in an optimized format for storage and future analysis.
+
+### Loading Method Used
+
+The data was loaded using Python's `pandas` library. The transformed CSV files were read and then converted to **Parquet** format, which offers efficient storage and is well-suited for analytical workflows.
+
+###  Data Files Processed
+
+- `transformed_full.csv` was converted to `full_data.parquet`.
+- `transformed_incremental.csv` was converted to `incremental_data.parquet`.
+
+### 🧪 Sample Code
+
+```python
+import pandas as pd
+
+# Full transformed data
+df_full = pd.read_csv("transformed_full.csv")
+df_full.to_parquet("full_data.parquet", index=False)
+
+# Incremental transformed data
+df_incremental = pd.read_csv("transformed_incremental.csv")
+df_incremental.to_parquet("incremental_data.parquet", index=False)
+
+# Verifying the Parquet files
+print(pd.read_parquet("full_data.parquet").head())
+print(pd.read_parquet("incremental_data.parquet").head())
+
 **Note:**  
 The notebook includes **detailed markdown explanations** for each step, making the extraction and transformation process clear, educational, and easy to follow for students and beginners.
+```
+### Output Location
+The output files were saved in **Parquet** format within the current repository directory. These files are ready to be used for downstream analytics, integration into data platforms, or long-term storage alongside this project.
 
+- `full_data.parquet`
+- `incremental_data.parquet`
 ---
 
 ## Output Screenshots
@@ -127,7 +169,7 @@ The notebook includes **detailed markdown explanations** for each step, making t
 
 1. **Clone or download this repository.**
 
-2. **Open and run the notebook `etl_extract.ipynb` in Jupyter Notebook or JupyterLab.**
+2. **Open and run the notebooks `etl_extract.ipynb` and etl_load.ipynb in Jupyter Notebook or JupyterLab.**
 
 3. **Data Source:**
 
