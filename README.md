@@ -53,7 +53,7 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 |-----------------------------------|-----------------------------------------------------------------------------|
 | `hospital_admissions.csv`         | Simulated hospital admissions dataset (CSV); same as the fully extracted data |
 | `last_extraction.txt`            | Text file storing the last extraction timestamp                            |
-| `etl_extract.ipynb`              | Jupyter Notebook for full and incremental extraction                       |
+| `etl_extract.ipynb`              | Jupyter Notebook for full and incremental extraction and transformation                      |
 | `.gitignore`                     | Specifies files/folders ignored by Git                                     |
 | `LICENSE`                        | MIT license details                                                        |
 | `README.md`                      | Project documentation (this file)                                          |
@@ -62,6 +62,7 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline f
 | `transformed_incremental.csv`    | Transformed incremental data                                               |
 | `Output_Screenshoots`            | Screenshots from the results of extraction and transformation              |
 | `Loaded data`                    | Loaded full and transformed data          |
+| `etl.load.ipynb`                    |Jupyter Notebook for full and incremental data loading   |
 ---
 
 ## Notebook Description
