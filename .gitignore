@@ -12,3 +12,13 @@ __pycache__/
 
 # Ignore last extraction timestamp file
 last_extraction.txt
+
+# Ignore SQLite and similar databases
+*.db
+
+# Ignore Parquet files
+*.parquet
+
+# Ignore the loaded_data folder
+loaded_data/
+
